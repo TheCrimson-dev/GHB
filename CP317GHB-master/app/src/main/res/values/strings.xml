@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">GHB_Draft</string>
+    <string name="AccountAmount">Amount</string>
+    <string name="AccountName">Name</string>
+    <string name="ContactName">Contact Name</string>
+    <string name="ContactEmail">Email Address</string>
+</resources>

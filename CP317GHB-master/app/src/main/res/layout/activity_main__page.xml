@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Page">
+
+    <ImageButton
+        android:id="@+id/btn_SendFunds"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="9dp"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_baseline_send_24" />
+
+    <ImageButton
+        android:id="@+id/btn_ETransfer"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="9dp"
+        android:layout_toEndOf="@+id/btn_SendFunds"
+        android:layout_toRightOf="@+id/btn_SendFunds"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_baseline_connect_without_contact_24"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_SavedContacts"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/btn_ETransfer"
+        android:layout_toRightOf="@+id/btn_ETransfer"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_baseline_contact_page_24"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_Settings"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/btn_SavedContacts"
+        android:layout_toRightOf="@+id/btn_SavedContacts"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_baseline_settings_24"
+        />
+
+    <ImageButton
+        android:id="@+id/btn_EHistory"
+        android:layout_width="62dp"
+        android:layout_height="45dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/btn_Settings"
+        android:layout_toRightOf="@+id/btn_Settings"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/ic_baseline_history_24" />
+
+    <ListView
+        android:id="@+id/lv_accountList"
+        android:layout_width="match_parent"
+        android:layout_height="435dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="115dp"
+        android:layout_marginBottom="181dp" />
+
+
+</RelativeLayout>
